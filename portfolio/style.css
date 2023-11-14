@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top-box {
+  height: 30px;
+  background-color: #0066CC;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navigation-box{
+    /* border: 5px solid white; ctrl + / */
+    width: 800px;
+    height: 60px;
+}
+
+.navigation-box ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-box ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation-box ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.top-box h1{
+    color: white;
+}
+
+.about-box{
+    height: 600px;
+    background-color: black;
+    padding-top: 88px;
+}
+.about-box h1{
+    /* border: 2px solid white; */
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    /* margin: 20px; */
+}
+
+.about-row{
+    /* border: 2px solid white; */
+    height: 400px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+}
+
+.about-col{
+    /* border: 2px solid yellow; */
+    width: 45%;
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-col img{
+    height: 100%;
+    margin-left: 100px;
+}
+
+.projects{
+    height: 1200px;
+    background-color: #EDEDED;
+}
+
+.projects h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    text-decoration: underline;
+    font-family: 'Roboto';
+}
+
+.projects ul{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.projects ul li{
+    margin-top: 20px;
+}
+
+.achievements{
+    background-color: black;
+    height: 500px;
+    color: white;
+    padding: 60px;
+}
+
+.achievements h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.achievements ul{
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.contacts {
+    background-color: #EDEDED;
+    height: 600px;
+}
+
+.contacts h1{
+    font-size: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-form{
+    background-color: black;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    padding: 0px;
+    margin-top: 0px; /* Add margin-top to create a gap */
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    
+}
+
+
+table{
+    color: white;
+}
+
+table td{
+    /* border: 2px solid white; */
+    padding: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+/*
+input[type='submit']{
+    background-color:#adff2f;
+
+}
+
+*/
+
+#btn-submit{
+    background-color: blueviolet;
+    
+}
+.submit-btn {
+    color: white;
+}
+
+.social-media{
+
+    background-color: blueviolet;
+
+    padding: 10px;
+
+}
+
+.social-media td{
+    border-right: 1px solid white;
+    padding: 0px 60px;
+    margin: auto;
+   
+}
+
+.social-media table{
+   margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    background-color: black;
+    height: 25px;
+    color: white;
+    text-align: center;
+
+
+}
